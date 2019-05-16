@@ -1,0 +1,10 @@
+Write a function that takes an array of distinct non-negative integers, make them consecutive, and return the count of missing numbers.
+For [4, 2, 6, 8], the output should be countMissingNumbers(arr) = 3
+
+As you can see 3, 5 and 7 are missing
+
+Level: EASY
+
+To run a challenge type: node Challenges/CHALLANGEFOLDER NAME
+Example to run Challange in Folder C1: node Challenges/C1
+To run a solution: node Challenges/FOLDER/solution

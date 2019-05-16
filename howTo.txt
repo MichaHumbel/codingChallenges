@@ -1,0 +1,15 @@
+#FIRST START
+Install yarn
+In console run: yarn
+
+
+#START A CHALLENGE
+
+In console type: node Challenges/FOLDER
+
+Example to run Challenge 1: node Challenges/C1
+
+
+#CREATE NEW CHALLENGE
+
+In console run: yarn new

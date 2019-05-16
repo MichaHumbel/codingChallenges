@@ -1,0 +1,7 @@
+Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
+
+Level: EASY
+
+To run a challenge type: node Challenges/CHALLANGEFOLDER NAME
+Example to run Challange in Folder C1: node Challenges/C1
+To run a solution: node Challenges/FOLDER/solution

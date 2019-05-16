@@ -1,0 +1,12 @@
+{
+  "name": "codingchallenges",
+  "version": "1.0.0",
+  "description": "my personal coding challenges",
+  "main": "index.js",
+  "scripts": {
+    "new": "node createChallenge.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Micha Humbel",
+  "license": "ISC"
+}

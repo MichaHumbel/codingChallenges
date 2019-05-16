@@ -1,0 +1,7 @@
+Write a function that rotates a list by k elements. For example, [1, 2, 3, 4, 5, 6] rotated by two becomes [3, 4, 5, 6, 1, 2]. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+
+Level: MEDIUM
+
+To run a challenge type: node Challenges/CHALLANGEFOLDER NAME
+Example to run Challange in Folder C1: node Challenges/C1
+To run a solution: node Challenges/FOLDER/solution

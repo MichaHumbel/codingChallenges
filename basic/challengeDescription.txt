@@ -1,0 +1,7 @@
+Challenge description goes here
+
+Level: HARD|MEDIUM|EASY
+
+To run a challenge type: node Challenges/CHALLANGEFOLDER NAME 
+Example to run Challange in Folder C1: node Challenges/C1
+To run a solution: node Challenges/FOLDER/solution

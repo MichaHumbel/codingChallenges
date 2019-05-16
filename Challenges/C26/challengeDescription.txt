@@ -1,0 +1,9 @@
+Given a number in the form of a list of digits, return all possible permutations.
+
+For example, given [1,2,3], return [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]].
+
+Level: MEDIUM
+
+To run a challenge type: node Challenges/CHALLANGEFOLDER NAME
+Example to run Challange in Folder C1: node Challenges/C1
+To run a solution: node Challenges/FOLDER/solution
