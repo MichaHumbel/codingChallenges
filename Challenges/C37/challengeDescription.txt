@@ -1,0 +1,7 @@
+Given a list, sort it using this method: reverse(lst, i, j), which reverses lst from i to j.
+
+Level: HARD
+
+To run a challenge type: node Challenges/CHALLANGEFOLDER NAME
+Example to run Challange in Folder C1: node Challenges/C1
+To run a solution: node Challenges/FOLDER/solution
