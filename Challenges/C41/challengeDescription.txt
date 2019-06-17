@@ -1,0 +1,11 @@
+Given a positive integer n, find the smallest number of squared integers which sum to n.
+
+For example, given n = 13, return 2 since 13 = 32 + 22 = 9 + 4.
+
+Given n = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
+
+Level: MEDIUM
+
+To run a challenge type: node Challenges/CHALLANGEFOLDER NAME
+Example to run Challange in Folder C1: node Challenges/C1
+To run a solution: node Challenges/FOLDER/solution
