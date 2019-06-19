@@ -2,30 +2,22 @@ const logger = require('../../logger');
 
 logger.info('Codechallenge 14 ---- Start');
 
-const set = [1, 2, 3, 4];
-
-const generatePowerSet = (set) => {
-  // make a copy of set & delete the reference to set
-  const fullSet = [...set];
-  // powerSet is an array with an empty array inside
-  const powerSet = [
-    [],
-  ];
-
-  // push each item in the powerSet Array;
-  let i = 0;
-  while (fullSet.length > 0) {
-    powerSet.push([fullSet[i]]);
-    const firstElement = fullSet.shift();
-    fullSet.forEach(elm => {
-      powerSet.push([firstElement, elm]);
-    })
+const set = [1, 2, 3];
+const generatePowerSet = (arr) => {
+  const fn = (active, rest, a) => {
+    if (active.length === 0 && rest.length === 0)
+      return;
+    if (rest.length === 0) {
+      a.push(active);
+    } else {
+      fn([...active, rest[0]], rest.slice(1, rest.length), a);
+      fn(active, rest.slice(1, rest.length), a);
+    }
+    return a;
   }
-
-  // add the full set to the powerset
-  powerSet.push(set);
-
-  return powerSet
+  return fn([], arr, [
+    []
+  ]);
 }
 
-logger.info('Start', generatePowerSet(set));
+logger.info('test', generatePowerSet(set))
